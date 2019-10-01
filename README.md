@@ -2,7 +2,7 @@
 
 1. Setting ZAP local proxy
 2. Generating & Saving Root CA Certificate
-3. Configure CA Certificate in Firefox
+3. Configure CA Certificate 
 4. Configure Proxy in Firefox
 4. Testing ZAP Proxy Configuration
 
@@ -25,6 +25,12 @@ alternatively , java -Xmx512m -jar zap-2.7.0.jar
 * ZAP tool -> Tools Menu -> Options -> Local Proxy -> Change Address = 127.0.0.1 Port = 8080.
 * browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080
 
+# Generating & Saving Root CA Certificate
+Open up OWASP ZAP, go to Tools -> Options
+
+In the Dynamic SSL Certificates*, click on Generate if you don't see a certificate, else, Save the certificate in some location comfortable to you like your home folder.
+
+# Configure CA Certificate 
 
 
 # Generating a Report:
