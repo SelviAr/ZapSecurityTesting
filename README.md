@@ -1,8 +1,11 @@
-
-
-
-
 # ZapSecurityTesting
+
+1. Setting ZAP local proxy
+2. Generating & Saving Root CA Certificate
+3. Configure CA Certificate in Firefox
+4. Configure Proxy in Firefox
+4. Testing ZAP Proxy Configuration
+
 
 
 Installation and configuration of ZAP:
@@ -12,17 +15,14 @@ Installation and configuration of ZAP:
 https://github.com/zaproxy/zaproxy/wiki/Downloads
 
 
-
-
 # Starting OWASP ZAP
 ```bat
 C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe
 alternatively , java -Xmx512m -jar zap-2.7.0.jar
 ```
 
-
-# Zap runs on proxy, to set up the proxy in ZAP:
+# Zap runs on proxy, to set up the proxy in ZAP
 * ZAP tool -> Tools Menu -> Options -> Local Proxy -> Change Address = 127.0.0.1 Port = 8080.
-* browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080.
+* browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080
 
 
