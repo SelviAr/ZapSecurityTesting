@@ -26,3 +26,18 @@ alternatively , java -Xmx512m -jar zap-2.7.0.jar
 * browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080
 
 
+
+# Generating a Report:
+ZAP tool -> Report -> Generate HTML report (Any other options listed) -> Save and share the report.
+
+ZAP tool -> Report -> Generate HTML report (Any other options listed) -> Save and share the report.
+
+Authentication , session and User management using ZAP
+1) Context: Represents a Web application
+2) Session Management Method: How are the web Sessions identified by the server and handle requests
+
+Example: cookie based using query parameters
+3) Authentication Method: How is a new session established?
+It could be either Form based authentication method, HTTP based or oath methods.
+4) User Management: Handling users of web application that could be used for executing actions
+Example: user name/password pair
