@@ -1,3 +1,4 @@
+
 # ZapSecurityTesting
 
 1. Setting ZAP local proxy
@@ -30,11 +31,17 @@ Open up OWASP ZAP, go to Tools -> Options
 
 In the Dynamic SSL Certificates*, click on Generate if you don't see a certificate, else, Save the certificate in some location comfortable to you like your home folder.
 
-# Configure CA Certificate 
+https://i.stack.imgur.com/cqqcH.png
 
+# Configure CA Certificate 
+Browser Options
+Tab Advanced
+Tab Cryptography/Certificates
+Click View certificates
+Click tab Trusted root certificates
+Click Import and choose the saved owasp_zap_root_ca.cer file
 
 # Generating a Report:
-ZAP tool -> Report -> Generate HTML report (Any other options listed) -> Save and share the report.
 
 ZAP tool -> Report -> Generate HTML report (Any other options listed) -> Save and share the report.
 
