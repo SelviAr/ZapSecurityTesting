@@ -41,3 +41,11 @@ Example: cookie based using query parameters
 It could be either Form based authentication method, HTTP based or oath methods.
 4) User Management: Handling users of web application that could be used for executing actions
 Example: user name/password pair
+
+
+
+
+How does it work?
+ZAP creates a proxy server and makes your website traffic pass through that server. It comprises of auto scanners that help you intercept the vulnerabilities in your website.
+![](https://www.srijan.net/hs-fs/hubfs/Workflows.jpg?width=528&name=Workflows.jpg)
+![](https://blog.codecentric.de/files/2013/10/overview.png)
