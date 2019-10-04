@@ -1,12 +1,26 @@
 
+
 # ZapSecurityTesting
 
-1. Setting ZAP local proxy
+## One Time Setup
+1. Setting up your ZAP Environment
 2. Generating & Saving Root CA Certificate
 3. Configure CA Certificate 
-4. Configure Proxy in Firefox
-4. Testing ZAP Proxy Configuration
 
+## PreTest Setup
+1. Configure Proxy in the browser
+2. Testing ZAP Proxy Configuration
+
+## Security Testing
+1. Web Session capture
+2. Context Setting
+3. Spidering
+4. AJAX Spidering
+5. Active Scanning
+
+
+## PostTest 
+1. Generate Report
 
 
 Installation and configuration of ZAP:
