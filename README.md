@@ -4,12 +4,12 @@
 
 ## One Time Setup
 1. Setup ZAP Environment
-2. Generating & Saving Root CA Certificate
-3. Configure CA Certificate 
+2. Generate CA Certificate
+3. Install CA Certificate in browser
 
 ## PreTest Setup
-1. Configure Proxy in the browser
-2. Testing ZAP Proxy Configuration
+1. Configure Proxy setting in the browser
+2. Configure ZAP Proxy for testing
 
 ## Security Testing
 1. Web Session capture
