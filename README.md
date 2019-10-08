@@ -1,5 +1,6 @@
 
 
+
 # ZapSecurityTesting
 
 ## One Time Setup
@@ -10,10 +11,16 @@
 ## PreTest Setup
 1. Configure Proxy setting in the browser
 2. Configure ZAP Proxy for testing
+*  Set No of instance
+* Set deep level
 
 ## Security Testing
 1. Web Session capture
 2. Context Setting
+4. Set Auth TYpe
+3. Add User
+* Set active session
+
 3. Spidering
 4. AJAX Spidering
 5. Active Scanning
