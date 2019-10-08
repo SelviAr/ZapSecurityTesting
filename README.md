@@ -77,7 +77,8 @@ It could be either Form based authentication method, HTTP based or oath methods.
 Example: user name/password pair
 
 
-
+# Practie Site
+http://hack-yourself-first.com/
 
 How does it work?
 ZAP creates a proxy server and makes your website traffic pass through that server. It comprises of auto scanners that help you intercept the vulnerabilities in your website.
