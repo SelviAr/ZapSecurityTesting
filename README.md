@@ -53,12 +53,6 @@ Once ZAP Opened - [Generate CA Certificate](https://www.youtube.com/watch?v=Uin0
 * Open your browser and install the Certificate to your browser (Firefox, Chrome, IE) accordingly 
 ![](https://i.stack.imgur.com/cqqcH.png)
 
-# Zap runs on proxy, to set up the proxy in ZAP
-* ZAP tool -> Tools Menu -> Options -> Local Proxy -> Change Address = 127.0.0.1 Port = 8080.
-* browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080
-
-
-
 # Configure CA Certificate 
 Browser Options
 Tab Advanced
@@ -66,6 +60,20 @@ Tab Cryptography/Certificates
 Click View certificates
 Click tab Trusted root certificates
 Click Import and choose the saved owasp_zap_root_ca.cer file
+
+
+# Zap runs on proxy, to set up the proxy in ZAP
+* ZAP tool -> Tools Menu -> Options -> Local Proxy -> Note down IP Address, it could be 127.0.0.1 Port = 8080.
+
+
+# Manually Configure Explicit Proxy Settings in the Browser
+* Go to IE browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080
+
+[How to set a proxy server in Chrome, Firefox, Internet Explorer, Microsoft Edge and Opera](https://www.digitalcitizen.life/how-set-proxy-server-all-major-internet-browsers-windows)
+
+
+
+
 
 # Generating a Report:
 
