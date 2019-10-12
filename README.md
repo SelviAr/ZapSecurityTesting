@@ -46,16 +46,18 @@ Option:2
 From command prompt, java -Xmx512m -jar zap-2.7.0.jar
 ```
 
-# Zap runs on proxy, to set up the proxy in ZAP
-* ZAP tool -> Tools Menu -> Options -> Local Proxy -> Change Address = 127.0.0.1 Port = 8080.
-* browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080
-
 # Generating & Saving Root CA Certificate
 Open up OWASP ZAP, go to Tools -> Options
 
 In the Dynamic SSL Certificates*, click on Generate if you don't see a certificate, else, Save the certificate in some location comfortable to you like your home folder.
 
-https://i.stack.imgur.com/cqqcH.png
+![](https://i.stack.imgur.com/cqqcH.png)
+
+# Zap runs on proxy, to set up the proxy in ZAP
+* ZAP tool -> Tools Menu -> Options -> Local Proxy -> Change Address = 127.0.0.1 Port = 8080.
+* browser -> Tools Menu -> Options -> Advanced tab -> Network -> Settings -> Select Manual Proxy configuration:- HTTP Proxy = 127.0.0.1 Port = 8080
+
+
 
 # Configure CA Certificate 
 Browser Options
