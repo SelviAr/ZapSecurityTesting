@@ -80,6 +80,26 @@ Ensure web traffic is captured.
 View-> Show all tab
 
 
+## Add Test Website in Default Context
+https://www.sarangjaiswal.com/images/ZapAddToContext1.png
+https://www.sarangjaiswal.com/images/ZapAddToContext2.png
+https://www.sarangjaiswal.com/images/ZapHttpSession.png
+https://www.sarangjaiswal.com/images/ZapParams.png
+
+Mark Logout link as Out of Context
+https://www.sarangjaiswal.com/images/ZapRemoveFromContext1.png
+
+https://www.sarangjaiswal.com/images/ZapRemoveFromContext2.png
+
+## Set HTTP Session as Active
+https://www.sarangjaiswal.com/images/ZapSetAsActive1.png
+https://www.sarangjaiswal.com/images/ZapSetAsActive2.png
+
+## Attack the URL using AJAX Spider
+https://www.sarangjaiswal.com/images/ZapAjaxSpider1.png
+https://www.sarangjaiswal.com/images/ZapAjaxSpider2.png
+
+
 At left pane, select the website that you are testing and include in Context as shown below.
 https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b2b112943-600x127.png
 https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b2f79397c-600x465.png
