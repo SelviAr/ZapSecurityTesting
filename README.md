@@ -72,7 +72,7 @@ Click Import and choose the saved owasp_zap_root_ca.cer file
 
 [How to set a proxy server in Chrome, Firefox, Internet Explorer, Microsoft Edge and Opera](https://www.digitalcitizen.life/how-set-proxy-server-all-major-internet-browsers-windows)
 
-
+Ensure web traffic is captured. 
 
 
 
