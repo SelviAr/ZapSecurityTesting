@@ -33,9 +33,8 @@ Security Testing Pathway -https://katrinatester.blogspot.com/2015/09/security-te
 
 # Setup ZAP Testing Environment
 * **JAVA SDK:** - [How to Install the Java Software Development Kit](https://www.wikihow.com/Install-the-Java-Software-Development-Kit)
-In order to install ZAP you need to install JAVA 8+ to your Windows or Linux system. If you use the Mac OS you don’t need JAVA as it’s already installed. Go to https://java.com/en/download/ and install it.
-* Installer: Download ZAP installer according to your OS 
-https://github.com/zaproxy/zaproxy/wiki/Downloads
+* **ZAP Prozy Tool** -
+  * Download ZAP installer - https://github.com/zaproxy/zaproxy/wiki/Downloads
 
 
 # Starting OWASP ZAP
