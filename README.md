@@ -49,6 +49,7 @@ From command prompt, java -Xmx512m -jar zap-2.7.0.jar
 
 # Generating & Saving Root CA Certificate
 Once ZAP Opened - [Generate CA Certificate](https://www.youtube.com/watch?v=Uin07SHkQTE)
+* [Adding SSL Certificates from OWASP ZAP - A Visual Walkthrough](https://2buntu.com/articles/1517/adding-ssl-certificates-from-owasp-zap-a-visual-walkthrough/)
 * Go to Tools>Options>Dynamic SSL Certificate. Click Generate and then click Save.
 * Save the certificate in the desired location.
 * Open your browser and install the Certificate to your browser (Firefox, Chrome, IE) accordingly 
