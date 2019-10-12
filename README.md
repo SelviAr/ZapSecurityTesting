@@ -1,4 +1,4 @@
-
+FO 
 Security Testing Pathway -https://katrinatester.blogspot.com/2015/09/security-testing-pathway.html
 
 
@@ -39,8 +39,11 @@ Security Testing Pathway -https://katrinatester.blogspot.com/2015/09/security-te
 
 # Starting OWASP ZAP
 ```bat
-C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe
-alternatively , java -Xmx512m -jar zap-2.7.0.jar
+Option:1
+Go to ZAP Folder and open the tool. Example: C:\Program Files\OWASP\Zed Attack Proxy\ZAP.exe
+
+Option:2
+From command prompt, java -Xmx512m -jar zap-2.7.0.jar
 ```
 
 # Zap runs on proxy, to set up the proxy in ZAP
