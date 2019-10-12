@@ -75,6 +75,44 @@ Click Import and choose the saved owasp_zap_root_ca.cer file
 
 Ensure web traffic is captured. 
 
+## Security Testing
+1. Web Session capture
+View-> Show all tab
+
+
+At left pane, select the website that you are testing and include in Context as shown below.
+https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b2b112943-600x127.png
+https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b2f79397c-600x465.png
+
+Then, find your login page’s POST request and right click and add a Form-based Auth Login Request as shown below.
+Flag as Context –> Default Context: Form-based Auth Login Request
+
+https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b4175d477-768x165.png
+
+Then, ZAP automatically fills “Login Request POST Data” after that you have to select username and password parameters by using dropdown values.
+
+https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b61201f45-1024x508.png
+
+And then, click “Users” and add a user.
+https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b68daa4b6-1024x508.png
+And for “Regex pattern identified in Logged in response messages” part, you need to check your login response and select a significant part that shows that we logged in such as “click to logout”.
+
+https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b7f2a5eb5-1024x305.png
+
+Then, ZAP automatically sets logged in response message part.
+
+https://224926-685269-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2017/02/img_58a2b84a203ce-1024x223.png
+
+
+https://www.swtestacademy.com/zap-authentication/
+
+[Authentication in ZAP](https://www.swtestacademy.com/zap-authentication/)
+
+2. Context Setting
+4. Set Auth TYpe
+3. Add User
+* Set active session
+
 
 
 # Generating a Report:
