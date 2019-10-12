@@ -4,8 +4,8 @@ Security Testing Pathway -https://katrinatester.blogspot.com/2015/09/security-te
 
 # ZapSecurityTesting
 
-## One Time Setup
-1. Setup ZAP Environment
+## One Time Setup in the new laptop 
+1. Setup ZAP Testing Environment - [How to Install the Java Software Development Kit](https://www.wikihow.com/Install-the-Java-Software-Development-Kit)
 2. Generate CA Certificate
 3. Install CA Certificate in browser
 
