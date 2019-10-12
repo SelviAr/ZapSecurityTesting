@@ -9,6 +9,7 @@ Security Testing Pathway -https://katrinatester.blogspot.com/2015/09/security-te
 2. Generate CA Certificate
 3. Install CA Certificate in browser
 
+
 ## PreTest Setup
 1. Configure Proxy setting in the browser
 2. Configure ZAP Proxy for testing
