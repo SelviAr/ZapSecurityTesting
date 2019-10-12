@@ -47,10 +47,10 @@ From command prompt, java -Xmx512m -jar zap-2.7.0.jar
 ```
 
 # Generating & Saving Root CA Certificate
-Open up OWASP ZAP, go to Tools -> Options
-
-In the Dynamic SSL Certificates*, click on Generate if you don't see a certificate, else, Save the certificate in some location comfortable to you like your home folder.
-
+Once ZAP Opened - [Generate CA Certificate](https://www.youtube.com/watch?v=Uin07SHkQTE)
+* Go to Tools>Options>Dynamic SSL Certificate. Click Generate and then click Save.
+* Save the certificate in the desired location.
+* Open your browser and install the Certificate to your browser (Firefox, Chrome, IE) accordingly 
 ![](https://i.stack.imgur.com/cqqcH.png)
 
 # Zap runs on proxy, to set up the proxy in ZAP
